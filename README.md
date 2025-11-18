@@ -48,6 +48,7 @@ I'm currently focused on:
 ### **Real-Time Multi-Camera Tracking Pipeline (C++17, OpenCV, Linux)**
 A high-performance, multi-threaded pipeline for real-time object tracking across multiple video streams.  
 Demonstrates C++ systems design, threading, frame pipelines, low-latency processing, and modular CV architecture.  
+
 **Tech:** C++17, OpenCV, pthreads, lock-free queues, CMake, Linux
 
 ---
@@ -55,6 +56,7 @@ Demonstrates C++ systems design, threading, frame pipelines, low-latency process
 ### **CUDA Fused Vision Kernel (CUDA, Nsight)**
 Hand-optimized fused CUDA kernel implementing RGB→Gray, Gaussian blur, and Sobel edge detection in a single pass.  
 Includes CPU vs GPU benchmarks and profiling analysis.  
+
 **Tech:** CUDA, Nsight Systems/Compute, memory coalescing, shared memory
 
 ---
@@ -62,12 +64,14 @@ Includes CPU vs GPU benchmarks and profiling analysis.
 ### **LLM Inference Server (Python, FastAPI, GPU)**
 Custom inference engine with simplified continuous batching, token streaming, and latency profiling.  
 Builds intuition for LLM runtime engines (vLLM, SGLang, TensorRT-LLM).  
+
 **Tech:** FastAPI, PyTorch, queuing, GPU inference, streaming APIs
 
 ---
 
 ### **MLOps Training Pipeline (Airflow/Prefect, MLflow, Docker)**
 End-to-end ML workflow with orchestration, metrics tracking, model registry, CI/CD, and Dockerized deployment.  
+
 **Tech:** Airflow/Prefect, MLflow, S3, Docker, GitHub Actions
 
 ---
@@ -75,6 +79,7 @@ End-to-end ML workflow with orchestration, metrics tracking, model registry, CI/
 ### **GPU Job Scheduler (Kubernetes, Triton, Prometheus/Grafana)**
 Lightweight GPU workload scheduler distributing inference jobs across a GPU-enabled Kubernetes cluster.  
 Includes autoscaling, monitoring, and queue-based scheduling.  
+
 **Tech:** Kubernetes, Triton, Prometheus, Grafana, Ray, Python
 
 ---
@@ -97,7 +102,6 @@ Open to opportunities in: **ML Systems, GPU optimization, robotics simulation, i
 ---
 
 ## Pinned Repositories
-(After uploading, pin these repos in this order)
 1. Real-Time Multi-Camera Tracker (C++17)  
 <!-- 2. CUDA Fused Vision Kernel  
 3. LLM Inference Server  
